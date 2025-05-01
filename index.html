@@ -15,15 +15,28 @@
 
         }
 
-        div {
-            display: inline;
+       #sarlavha{
+        display: inline;
+        width: 50%;
+        text-align: center;
+        font-size: 50%;
+        background-color: #007BFF;
+        color: #007BFF;
+       }
+        button{
+            border-radius: 10px;
+            background-color: yellow;
+        }
+        button:hover{
+            background-color: white;
 
         }
+
     </style>
 
 </head>
 
-<body style="background-color: azure;">
+<body style="background-color: #EAF3E5;">
     <p style="width: 100% ">
     <h1>
         Talabalar bo'yicha so'rovnoma
@@ -398,15 +411,15 @@
         </ol>
     </form>
     <p>
-    <div>
+    <div id="sarlavha">
         <form action="">
             <input type="text" name="Ism" required placeholder="Ism kiriting :">
-            <br>
+            <br><br>
             <input type="email" name="email" required placeholder="Email kiriting :">
-            <br>
+            <br><br>
             <input type="password" name="password" required placeholder="Parol kiriting :">
-            <br>
-            <button type="submit"  style="border-radius: 10px;">
+            <br><br>
+            <button type="submit">
                 Yuborish
             </button>
         </form>
